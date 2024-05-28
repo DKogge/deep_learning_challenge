@@ -23,14 +23,20 @@ EIN and NAME are removed as they do not provide data to help the model predictio
 o	How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 I ran several iterations as follows:
+
 Start - 2 layers, 8 and 5 neurons, relu and sigmoid output
+
 Opt1 - kerastuner, 5 layers, 17,67,1,43,76, tanh and sigmoid output
+
 Opt2 - kerastuner, 5 layers, 37,51,73,95,25, tanh and sigmoid output
+
 Opt3 - kerastuner, 6 layers, 6,173,76,146,81,11 tanh and sigmoid output
+
 
 o	Were you able to achieve the target model performance?
 
 Unfortunately I was not able to reach 75%, the closest was just shy of 73%.
+
 
 o	What steps did you take in your attempts to increase model performance?
 
